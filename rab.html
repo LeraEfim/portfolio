@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		
+	</style>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" href="materialize/css/materialize.min.css" rel="stylesheet">
+	<link type="text/css" href="style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+	<ul id="slide-out" class="side-nav">
+		<li>
+			<div class="user-view">
+				<div class="background">
+					<img src="img/4.jpg">
+				</div>
+				<a href="#!user"><img class="circle" src="img/h.jpg"></a>
+				<a href="#!name"><span class="grey-text name">Ефимова Валерия</span></a>
+				<a href="#!email"><span class="grey-text email">evaleri8@mail.ru</span></a>
+			</div>
+		</li>
+		<li><a href="index.html" class="waves-effect"><i class="material-icons">grade</i>Главная</a></li>
+		<li><a href="bio.html" class="waves-effect"><i class="material-icons">person</i>О себе</a></li>		
+		<li><a href="rab.html" class="waves-effect"><i class="material-icons">computer</i>Мои работы</a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+
+	</ul>
+	 <div class="row g container">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/2017-12-19-155951_1366x768_scrot.png">
+          <span class="card-title">Викторина</span>
+        </div>
+        <div class="card-content">
+          <p>Моей первой работой является викторина, сделанная на Phaser.js</p>
+        </div>
+      </div>
+    </div>
+  </div>
+            
+	<a href="#" data-activates="slide-out" class="button-collapse pos"><i class="material-icons">menu</i></a>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			$('.slider').slider();
+		});
+
+	</script>
+</body>
+
+</html>
